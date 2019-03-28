@@ -1,0 +1,30 @@
+**********Apache Kafka**************
+
+>Source
+>Target
+>Producer
+>Consumer
+>Kafka Cluster
+>Zookeeper
+>Topics
+>Partitions
+>offsets
+>Broker
+>Data Replication
+>Leader
+
+producer
+>Ack 0,1 and All 
+>Message Keys
+
+consumer
+>Read in order from partions like Partition 1 offests  0,1,2...
+>Consumer groups
+>Consumer offsets
+
+zookeeper
+>Manages broker & perform leader election for partition
+>Can be in odd quroum(3,5,7) cluster if one zookeeper server in cluster goes down other can take place
+
+>Delivery Semantics Consumer*
+ 
